@@ -1,0 +1,28 @@
+hr
+{
+  border-style: none none none;
+  border-top-style: dotted; /* стиль об'єктів(в даному випатку крапочки)' */
+  border-color: #ff3300; /* колір границі */
+  border-width: 5px;/* ширина границі об'єкту*/
+  width: 30%; /* ширина елементу */
+  height: 5px;/* висота елементу*/
+}
+ul
+{
+  text-decoration: underline;/* підкреслення */
+}
+.shrift
+{
+  font-family: Courier New,serif;
+  font-style: italic;
+  color: blue;
+}
+a:any-link {
+  height: auto;
+  width: auto;
+  color: blue;
+}
+#p1
+{
+  background-color: red;
+}
