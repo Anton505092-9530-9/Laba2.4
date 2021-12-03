@@ -2,17 +2,23 @@
 
 <head>
   <meta name="viewport" content="width=700px">
-  <meta name="viewport" content="height=device-height, initial-scale=1">
-  <title>4.3</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>4.2</title>
   <style media="screen">
+    @-ms-viewport
+    {
+      width: device-width;
+    }
+
+    html {
+      min-width: 710px;
+    }
+
     #flex-container {
       display: flex;
       flex-direction: column;
     }
-    html
-    {
-       min-width: 710px; 
-    }
+
     .Capital {
       display: flex;
       flex-direction: row;
@@ -55,7 +61,6 @@
     }
 
     .Yellow {
-      display: flex;
       height: 200px;
       background-color: white;
       margin-bottom: 75px;
@@ -107,14 +112,16 @@
     <div id="container">
       <div class="firbox">
         <img src="images/333.png">
+        <br>
         <p>Згідно з легендами, назва Києва походить від імені Кия — найстаршого з трьох братів, яких вважають засновниками міста. Одна з цих легенд дійшла до нас у літописі XII ст. «Повість временних літ»[8].
           У сагах Київ називався Koenugarðr. Назва Kænugarður (Кайнуґардур) залишилася за Києвом в ісландській мові.
         </p>
       </div>
       <div class="secbox">
         <img src="images/555.png">
+        <br>
         <p>
-          Місто розташоване на півночі України, на межі Полісся і лісостепу по обидва береги Дніпра в його середній течії. Площа міста 836 км². Довжина вздовж берега — понад 20 км.
+          Місто розташоване на півночі України, на межі Полісся і лісостепу по обидва береги Дніпра в його середній течії.
         </p>
       </div>
     </div>
