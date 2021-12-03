@@ -1,0 +1,128 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>4.3</title>
+  <style media="screen">
+    #flex-container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .Capital {
+      display: flex;
+      flex-direction: row;
+      height: 75px;
+      background-color: black;
+      justify-content: space-between;
+      padding: 10px;
+      color: white;
+    }
+
+    .Header {
+      height: 400px;
+      background: url(images/forhed.jpg);
+      ;
+    }
+
+    .Main_section {
+      height: 500px;
+      background-color: white;
+      /*відступи з боків для елементу section*/
+      margin-top: 75px;
+      margin-bottom: 75px;
+      margin-right: 100px;
+      margin-left: 100px;
+      justify-content: space-between;
+    }
+
+    .PreFooter {
+      height: 40px;
+      background-color: silver;
+      margin: 0px;
+    }
+
+    .Footer {
+      height: 100px;
+      background-color: black;
+      margin: 0px;
+      color: silver;
+      text-align: center;
+    }
+
+    .Yellow {
+      display: flex;
+      height: 200px;
+      background-color: white;
+      margin-bottom: 75px;
+    }
+
+    #container {
+      display: flex;
+      flex-direction: column width: 100px;
+      height: 200px;
+      justify-content: space-between;
+
+    }
+
+    .firbox {
+      display: flex;
+      width: 48%;
+      height: 200px;
+      background-color: whithe;
+    }
+
+    .secbox {
+      display: flex;
+      width: 48%;
+      height: 200px;
+      background-color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="Capital">
+    <p>Мій Київ</p>
+    <p><a href="https://kyivcity.gov.ua/">Офіційний сайт Києва</a></p>
+    <p>Координати: 50°27′00″ пн. ш. 30°31′25″</p>
+  </nav>
+  <header class="Header">
+    <p>Київ</p>
+    <p>Ки́їв — столиця та найбільше місто України, одне з найбільших і найстаріших міст Європи. Розташований у середній течії Дніпра, у північній Наддніпрянщині. Політичний, соціально-економічний, транспортний, освітньо-науковий, історичний,
+      культурний та духовний центр України. У системі адміністративно-територіального устрою України Київ має спеціальний статус визначений Конституцією і не входить до складу жодної області, хоча і є адміністративним центром Київської області.[6]
+      Місце розташування центральних органів влади України, іноземних місій, штаб-квартир більшості підприємств і громадських об'єднань, що працюють в Україні.</p>
+  </header>
+  <section class="Main_section">
+    <p class="Yellow">
+      За «Повістю временних літ», Київ заснував полянський князь Кий зі своїми братами Щеком і Хоривом та сестрою Либіддю. Згідно з археологічними даними та писемними джерелами,
+      початок безперервного розвитку Києва датується 2-ю половиною V ст. — 1-ю половиною VI ст.; осередком розширення Києва була гора Замкова[7]. Був столицею полян, Русі, Київського князівства,
+      Великого князівства Руського, Української Народної Республіки, Української Держави та Української Радянської Соціалістичної Республіки. Також був адміністративним центром однойменного литовсько-польського воєводства, козацького полку,
+      російської губернії, радянської округи, німецької генеральної округи та радянської області.
+    </p>
+    <div id="container">
+      <div class="firbox">
+        <img src="images/333.png">
+        <p>Згідно з легендами, назва Києва походить від імені Кия — найстаршого з трьох братів, яких вважають засновниками міста. Одна з цих легенд дійшла до нас у літописі XII ст. «Повість временних літ»[8].
+          У сагах Київ називався Koenugarðr. Назва Kænugarður (Кайнуґардур) залишилася за Києвом в ісландській мові.
+        </p>
+      </div>
+      <div class="secbox">
+        <img src="images/555.png">
+        <p>
+          Місто розташоване на півночі України, на межі Полісся і лісостепу по обидва береги Дніпра в його середній течії. Площа міста 836 км². Довжина вздовж берега — понад 20 км.
+        </p>
+      </div>
+    </div>
+  </section>
+  <div id="flex-container">
+    <div class="PreFooter">
+      <p>У Києві як місті, наділеному Конституцією України столичними функціями, розміщуються всі центральні органи влади: законодавчі, виконавчі та судові.</p>
+    </div>
+    <footer class="Footer">
+      <P>2021.ALL Rights Reserved</p>
+    </footer>
+  </div>
+</body>
+
+</html>
