@@ -4,11 +4,7 @@
   <meta charset="utf-8">
   <title>2.4</title>
   <style media="screen">
-    #flex-container/*використав для розташування 5 боксів в ряд*/
-    {
-      display:flex;
-      flex-direction: row;
-    }
+
   .A:hover/*використав псевдоклас hover для визначення
    стилю елемента при наведенні на нього курсору миші*/
   {
@@ -50,6 +46,9 @@
     border-left-style: dotted;/*зробив стиль границі точковим*/
     border-width: 10px;/*зробив ширину границі 10рх*/
     border-color: #D0D0FF;
+    position: fixed;
+    cursor: pointer;
+    top: 0px;
   }
   .B
   {
@@ -61,6 +60,10 @@
     border-left-style: dotted;
     border-width: 10px;
     border-color: #D0D0FF;
+    position: fixed;
+    cursor: pointer;
+    left: 140px;
+    top: 0px;
   }
   .C
   {
@@ -72,6 +75,10 @@
     border-left-style: dotted;
     border-width: 10px;
     border-color: #D0D0FF;
+    position: fixed;
+    cursor: pointer;
+    left: 270px;
+    top: 0px;
   }
   .D
   {
@@ -83,6 +90,10 @@
     border-left-style: dotted;
     border-width: 10px;
     border-color: #D0D0FF;
+    position: fixed;
+    cursor: pointer;
+    left: 400px;
+    top: 0px;
   }
   .E
   {
@@ -94,6 +105,10 @@
     border-left-style: dotted;
     border-width: 10px;
     border-color: #D0D0FF;
+    position: fixed;
+    cursor: pointer;
+    left: 530px;
+    top: 0px;
   }
   .F
   {
@@ -107,6 +122,13 @@
     border-left-style: dotted;
     border-width: 10px;
     border-color: #D0D0FF;
+    position: fixed;
+    cursor: pointer;
+  }
+  .bah
+  {
+    position: fixed;
+    top: 700px;
   }
   </style>
 </head>
@@ -134,7 +156,7 @@
 
 
 </div>
-<p><a href="index.html">До головної сторінки</a></p>
+<p class="bah"><a href="index.html">До головної сторінки</a></p>
 </body>
 
 </html>
