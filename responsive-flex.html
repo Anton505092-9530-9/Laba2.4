@@ -1,19 +1,26 @@
 <html>
 
 <head>
-  <meta name="viewport" content="width=700px">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="height=device-height, initial-scale=1"><!-- Висота по висоті девайсу -->
+  <meta name="viewport" content="width=850">
   <title>4.2</title>
   <style media="screen">
-    @-ms-viewport
-    {
-      width: device-width;
+    html{
+      min-width: 860px;
     }
-
-    html {
-      min-width: 710px;
-    }
-
+    body,
+    nav,
+    header,
+    footer,
+    section,
+    div,
+    h1,
+    h2,
+    p {
+    margin: 0; 
+    box-sizing: border-box;
+    padding: 0px;
+  }
     #flex-container {
       display: flex;
       flex-direction: column;
