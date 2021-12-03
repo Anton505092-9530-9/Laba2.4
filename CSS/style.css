@@ -1,28 +1,43 @@
-hr
+.name
 {
-  border-style: none none none;
-  border-top-style: dotted; /* стиль об'єктів(в даному випатку крапочки)' */
-  border-color: #ff3300; /* колір границі */
-  border-width: 5px;/* ширина границі об'єкту*/
-  width: 30%; /* ширина елементу */
-  height: 5px;/* висота елементу*/
+  border: thick double #32a1ce;/*створив границі*/
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-bottom: 15px;/*задав відстань знизу між елементами*/
+  font-size: 30px;
+  border-radius: 7px;/*задав розмір межі*/
+  font-family: serif;
 }
-ul
+.My_photo
 {
-  text-decoration: underline;/* підкреслення */
+  margin-bottom: 15px;
+  border-radius: 7px;
+  border: thick double #32a1ce;
+  height: 500px;
+  width: 500px;
 }
-.shrift
+#main_info
 {
-  font-family: Courier New,serif;
-  font-style: italic;
-  color: blue;
+  display:flex;
+  flex-direction: row;
 }
-a:any-link {
-  height: auto;
-  width: auto;
-  color: blue;
-}
-#p1
+.info
 {
-  background-color: red;
+  border-radius: 7px;
+  border: thick double #32a1ce;
+  font-family: serif;
+  background-color: #1fd1b6;
+}
+.Link1:hover/*при наведенні миші посилання змінює колір фону*/
+{
+  background-color: #1fd1b6;
+}
+.Link2:hover
+{
+  background-color: #1fd1b6;
+}
+.Link3:hover
+{
+  background-color: #1fd1b6;
 }
